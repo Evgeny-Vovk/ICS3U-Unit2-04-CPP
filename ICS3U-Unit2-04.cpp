@@ -4,7 +4,7 @@
 // Created on : September 2022
 // ICS3U-Unit2-04.cpp File, learning input processing and output in C++.
 
-#include <cmath>
+#include <iomanip>
 #include <iostream>
 
 int main() {
@@ -26,7 +26,8 @@ int main() {
     total = pizzaCost * HST;
 
     //output
-    std::cout << "The cost for " << diameter << " inches pizza is $" << total;
+    std::cout << "The cost for " << diameter << " inches pizza is $" 
+    << std::fixed << std::setprecision(2) << std::setfill('0') << total;
 
     std::cout << "\n\nDone.\n";
 }
