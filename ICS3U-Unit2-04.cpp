@@ -2,7 +2,7 @@
 //
 // Created by : Evgeny Vovk
 // Created on : September 2022
-// ICS3U-Unit2-04.cpp File, learning input processing and output in C++.
+// ICS3U-Unit2-04.cpp File, learning pseudo-code in C++.
 
 #include <iomanip>
 #include <iostream>
