@@ -25,8 +25,8 @@ int main() {
     pizzaCost = LABOR + RENT + (COST_PER_INCH * diameter);
     total = pizzaCost * HST;
 
-    //output
-    std::cout << "The cost for " << diameter << " inches pizza is $" 
+    // output
+    std::cout << "The cost for " << diameter << " inches pizza is $"
     << std::fixed << std::setprecision(2) << std::setfill('0') << total;
 
     std::cout << "\n\nDone.\n";
